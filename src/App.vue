@@ -3,5 +3,7 @@
 </template>
 
 <script>
-export default {};
+import API from './APIsocket.js';
+const socket = API()
+export default socket
 </script>
